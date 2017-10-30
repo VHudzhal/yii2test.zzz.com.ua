@@ -13,7 +13,6 @@
  );
 </pre>
         <hr>
-
 		<?php
 		/* @var $form yii\bootstrap\ActiveForm */
 
@@ -33,7 +32,6 @@
 		] );
 		?>
 		<?php
-
 		$val     = $_POST['ft_number'];
 		$pattern = '/\.$/';
 		$calc    = preg_replace( $pattern, '', preg_replace( '/0+$/', '', $val ) );
