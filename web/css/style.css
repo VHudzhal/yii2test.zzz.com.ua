@@ -1,0 +1,10 @@
+select{
+    width: 100%;
+}
+td{
+    width: auto;
+
+}
+#initials td{
+    padding: 5px;
+}
