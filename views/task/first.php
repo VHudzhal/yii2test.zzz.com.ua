@@ -19,7 +19,7 @@
 		use yii\widgets\Pjax;
 		use yii\helpers\Html;
 
-		Pjax::begin( [ 'id' => 'ft' ] );
+		Pjax::begin( [ 'id' => 'ft-num' ] );
 
 		$form = ActiveForm::begin( [
 			'id'      => 'task',
