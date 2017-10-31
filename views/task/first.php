@@ -9,8 +9,7 @@
         <hr>
 
         <pre>
-    $calc = preg_replace( $pattern, '',preg_replace( '/0+$/', '', $val)
- );
+    $calc = preg_replace( $pattern, '',preg_replace( '/0+$/', '', $val);
 </pre>
         <hr>
 		<?php
