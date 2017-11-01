@@ -44,15 +44,6 @@ class MenuForm extends ActiveRecord {
 		];
 	}
 
-//	public function arrangeTree($categories)
-//	{
-//		$array = array();
-//		foreach ($categories as $category){
-//			if (!$categories->parent_id){
-//
-//			}
-//		}
-//	}
 	public function getStructure() {
 		$result = MenuForm::find()->asArray()->all();
 		if ( ! $result ) {
